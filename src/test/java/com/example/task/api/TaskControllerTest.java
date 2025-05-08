@@ -38,10 +38,10 @@ class TaskControllerTest {
     private MockMvc mockMvc;
 
     @Autowired
-    private TaskService taskService;  // Will be injected from Config
+    private TaskService taskService;  
 
     @Autowired
-    private ObjectMapper objectMapper;  // Spring Boot auto-configures this
+    private ObjectMapper objectMapper; 
 
     private final String userId = "mock-user-id";
     private Task sampleTask;
